@@ -2,13 +2,31 @@
   background-color: #21369f;
   color: white;
   padding: 20px;
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 
-.input-search{
-    position: absolute;
-    right: 300px;
-    bottom: 20px;
-    width: 35vw;
+.input-search {
+  position: absolute;
+  top: 90px; 
+  right: 70px; 
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  width: 50vw; 
 }
+
+.input-search input[type="search"] {
+  flex: 1; 
+}
+
+.botao-buscar {
+  width: 100px;
+;
+}
+
+.botao-criar-projeto {
+  width: 125px;
+}
+
 /*# sourceMappingURL=styles.css.map */
