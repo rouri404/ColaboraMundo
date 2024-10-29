@@ -6,6 +6,15 @@
   align-items: center;
 }
 
+.botoes{
+  position: relative;
+  width: 80px;
+  margin-left: 1325px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
 .input-search {
   position: absolute;
   top: 90px; 
