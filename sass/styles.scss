@@ -1,7 +1,8 @@
-$header-bg-color: #21369f;
+$header-bg-start: #21369f;
+$header-bg-end: #0C1439;
 
 .header {
-    background-color: #21369f;
-    color: white; 
-    padding: 20px;  
+    background: linear-gradient(to right, $header-bg-start 50%, $header-bg-end 100%);
+    color: white;
+    padding: 20px;
 }

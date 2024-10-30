@@ -1,9 +1,18 @@
 .header {
-  background-color: #21369f;
+  background: linear-gradient(to right, #21369f 25%, #0C1439 100%); 
   color: white;
   padding: 20px;
   display: flex;
   align-items: center;
+}
+
+.botoes{
+  position: relative;
+  width: 80px;
+  margin-left: 1325px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
 }
 
 .input-search {
