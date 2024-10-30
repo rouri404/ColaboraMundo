@@ -44,6 +44,7 @@
   font-size: 30;
   text-align: center;
   height: 450px;
+  padding: 20px;
 }
 
 
@@ -51,16 +52,31 @@
 .base{
   background: linear-gradient(to right, #21369f 25%, #0C1439 100%); 
   color: white;
-  
-  display: flex;
-  justify-content: flex-start;
-  gap: 15px;
 
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding-left: 60px ;
+  padding-right: 60px;
+  height: 200px;
+  width: 100%;
 }
 
 .footer {
   background: linear-gradient(to right, #3EA6F0, #0F3048);
   color: white;
   text-align: center;
+}
+
+.contato{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: start;
+}
+
+.logo{
+  display: flex;
+  gap:5px;
 }
 /*# sourceMappingURL=styles.css.map */
