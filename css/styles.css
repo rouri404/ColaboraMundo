@@ -9,7 +9,7 @@
 .botoes{
   position: relative;
   width: 80px;
-  margin-left: 1325px;
+  margin-left: 1320px;
   display: flex;
   justify-content: space-between;
   gap: 5px;
@@ -38,4 +38,29 @@
   width: 125px;
 }
 
+.topo {
+  background: linear-gradient(to right, #3EA6F0 25%, #0F3048 100%);
+  color: white;
+  font-size: 30;
+  text-align: center;
+  height: 450px;
+}
+
+
+
+.base{
+  background: linear-gradient(to right, #21369f 25%, #0C1439 100%); 
+  color: white;
+  
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+
+}
+
+.footer {
+  background: linear-gradient(to right, #3EA6F0, #0F3048);
+  color: white;
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
