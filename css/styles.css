@@ -4,6 +4,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .botoes{
@@ -30,7 +31,7 @@
 }
 
 .botao-buscar {
-  width: 100px;
+  width: 70px;
 ;
 }
 
@@ -61,6 +62,8 @@
   height: 200px;
   width: 100%;
 }
+
+
 
 .footer {
   background: linear-gradient(to right, #3EA6F0, #0F3048);
