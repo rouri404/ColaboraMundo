@@ -78,6 +78,18 @@
   justify-content: start;
 }
 
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.facebook{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
 .logo{
   display: flex;
   gap:5px;
