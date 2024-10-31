@@ -92,6 +92,9 @@
   gap: 10px;
 }
 
+.redes-sociais .text-redes-sociais {
+  margin-left: 100px; /* ou use padding-left: 20px; */
+}
 
 
 .logo{
