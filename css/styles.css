@@ -1,7 +1,7 @@
 .header {
   background: linear-gradient(to right, #21369f 25%, #0C1439 100%); 
   color: white;
-  padding: 20px;
+  padding: 20px; 
   display: flex;
   align-items: center;
   width: 100%;
@@ -44,14 +44,19 @@
   color: white;
   font-size: 30;
   text-align: center;
-  height: 450px;
   padding: 20px;
+  min-height: 450px;
 }
 
+.img-texto {
+  max-width: 100%;
+  height: auto;
+}
 
+  
 
 .base{
-  background: linear-gradient(to right, #21369f 25%, #0C1439 100%); 
+  background: linear-gradient(to right, #21369f 25%, #0C1439 100%);
   color: white;
 
   display: flex;
@@ -59,7 +64,6 @@
   gap: 15px;
   padding-left: 60px ;
   padding-right: 60px;
-  height: 200px;
   width: 100%;
 }
 
@@ -69,6 +73,7 @@
   background: linear-gradient(to right, #3EA6F0, #0F3048);
   color: white;
   text-align: center;
+  height: auto;
 }
 
 .contato{
@@ -76,19 +81,18 @@
   flex-direction: column;
   text-align: left;
   justify-content: start;
+  gap:px;
 }
 
 .redes-sociais {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: end;
+  align-items: flex-end;
+  gap: 10px;
 }
 
-.facebook{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-}
+
 
 .logo{
   display: flex;
