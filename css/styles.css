@@ -16,6 +16,20 @@
   gap: 5px;
 }
 
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.saiba-mais {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+
 .input-search {
   position: absolute;
   top: 90px; 
