@@ -67,7 +67,11 @@
   height: auto;
 }
 
-  
+.cards1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+} 
 
 .base{
   background: linear-gradient(to right, #21369f 25%, #0C1439 100%);
