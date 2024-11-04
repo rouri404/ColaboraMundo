@@ -42,10 +42,33 @@
   font-family: 'Inter',serif;
 }
 
-.card-title {
+.cards1 {
   display: flex;
-  align-items: start;
-  justify-content: start;
+  justify-content: space-between;
+  flex-direction: row;
+} 
+
+.card {
+  box-shadow: 8px 8px 10px lightgray;
+  height: 650px;
+  
+}
+
+.card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  height: 250px;
+  width: auto;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1.20rem;
 }
 
 .saiba-mais {
@@ -53,6 +76,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: center;
+  margin-top: auto;
 }
 
 
@@ -74,11 +99,6 @@
   font-family: 'Inter',serif;
 }
 
-.cards1 {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-} 
 
 .base{
   background: linear-gradient(to right, #21369f 25%, #0C1439 100%);
