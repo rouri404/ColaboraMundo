@@ -2,9 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('form');
     const errorMessage = document.getElementById('errorMessage');
 
-    console.log('Elemento <form> encontrado:', form !== null);
-    console.log('Elemento <div id="errorMessage"> encontrado:', errorMessage !== null);
-
     if (form && errorMessage) {
         form.addEventListener('submit', (event) => {
             event.preventDefault();
@@ -28,17 +25,58 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         console.error('Erro: Algum elemento necessário não foi encontrado.');
     }
-});
 
-document.addEventListener('DOMContentLoaded', () => {
     const disabledLinks = document.querySelectorAll('a[data-message]');
-
     disabledLinks.forEach((link) => {
         link.addEventListener('click', (event) => {
-            event.preventDefault(); // Impede a navegação
+            event.preventDefault();
             const message = link.getAttribute('data-message');
-            alert(message); // Mostra uma mensagem ao usuário
+            alert(message);
         });
     });
-});
 
+    function copyToClipboard(text) {
+        const tempTextArea = document.createElement('textarea');
+        tempTextArea.value = text;
+        document.body.appendChild(tempTextArea);
+        tempTextArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempTextArea);
+    }
+
+    const emailLink = document.getElementById('email-link');
+    const phoneLink = document.getElementById('phone-link');
+
+    if (emailLink) {
+        emailLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            copyToClipboard('colaboramundoLTDA@gmail.com');
+            alert('E-mail copiado para a área de transferência!');
+        });
+    }
+
+    if (phoneLink) {
+        phoneLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            copyToClipboard('+55 (11) 2920-6119');
+            alert('Telefone copiado para a área de transferência!');
+        });
+    }
+
+    const userIcon = document.querySelector('a[href="/user"]');
+    const notificationIcon = document.querySelector('a[href="/notificações"]');
+
+    if (userIcon) {
+        userIcon.addEventListener('click', function(event) {
+            event.preventDefault();
+            alert('Em breve estará disponível');
+        });
+    }
+
+    if (notificationIcon) {
+        notificationIcon.addEventListener('click', function(event) {
+            event.preventDefault();
+            alert('Em breve estará disponível');
+        });
+    }
+});
