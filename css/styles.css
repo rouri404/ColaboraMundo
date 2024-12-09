@@ -131,16 +131,32 @@
 }
 
 .redes-sociais {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  gap: 10px;
-  font-family: 'Inter',serif;
+  margin: 20px 0;
 }
 
-
 .text-redes-sociais {
-  margin-left: 0px;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.rede-social {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.link-rede-social {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.icone-rede-social {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
 }
 
 
@@ -246,4 +262,6 @@
     align-items: center;
     padding: 20px;
   }
+
+
 }
