@@ -38,3 +38,6 @@ git clone https://github.com/seu-usuario/colaboramundo.git
 - Miguel Hitoshi Takahashi - R.A: 1111392421022
 - Pedro Graciani de Souza - R.A: 1111392421012
 - Raphael Trindade Olho - R.A: 1111392421040
+
+## Acesse o site 
+Você pode acessar o site pelo GitHub Pages por aqui -> `https://raphaeltrindadeolho.github.io/ColaboraMundo/`
