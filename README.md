@@ -39,5 +39,7 @@ git clone https://github.com/seu-usuario/colaboramundo.git
 - Pedro Graciani de Souza - R.A: 1111392421012
 - Raphael Trindade Olho - R.A: 1111392421040
 
-## Acesse o site 
-Você pode acessar o site pelo GitHub Pages por aqui -> `https://raphaeltrindadeolho.github.io/ColaboraMundo/`
+## Acesse o site
+
+Você pode acessar o site do projeto no GitHub Pages clicando [aqui](https://raphaeltrindadeolho.github.io/ColaboraMundo/).
+
