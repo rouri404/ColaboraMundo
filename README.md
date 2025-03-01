@@ -22,7 +22,7 @@ A plataforma visa facilitar a criação e a gestão de parcerias estratégicas e
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/colaboramundo.git
+git clone https://github.com/RaphaelTrindadeOlho/colaboramundo.git
 ```
 
 ## Funcionalidades Futuras
