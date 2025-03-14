@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ColaboraMundo</title>
-    <style>
-        @import url('CSS/styles.css');
-    </style>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="js/script.js"></script>
+
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<header class="header p-5 d-flex align-items-center justify-content-between">
+<header class="header">
     <div class="logo-titulo d-flex align-items-center">
         <img src="imagens/Ellipse 3.png" alt="Logo do ColaboraMundo" class="logo" style="border: none;">
-        <h1 class="titulo fs-1  text">ColaboraMundo</h1>
+        <h1 class="titulo text">ColaboraMundo</h1>
     </div>
     
     <form class="input-search d-flex align-items-center">
@@ -26,82 +26,83 @@
         <button type="submit" class="btn btn-primary botao-buscar">Buscar</button>
     </form>
     
-    <nav class="botoes d-flex">
-        <a href="/user">
-            <img src="imagens/User.png" alt="User" class="icon">
+    <nav class="botoes">
+        <a href="#" class="icon" data-message="Em breve estará disponível!">
+            <img src="imagens/User.png" alt="User">
         </a>
-        <a href="/notificações">
-            <img src="imagens/Notificação.png" alt="Notificação" class="icon">
+        <a href="#" class="icon" data-message="Em breve estará disponível!">
+            <img src="imagens/Notificação.png" alt="Notificação">
         </a>
     </nav>
+    
 </header>
 
     <main class="content">
         <div class="cards1">
         <div class="card1 p-5">  
-         <div class="card border-primary border-2" style="width: 18rem;">
+         <div class="card border-primary border-2">
             <img src="imagens/VidaMarinha.jpg" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title" style="color: dodgerblue;">ODS 14: Vida na Água</h5>
                 <p class="card-text"> Participe de uma iniciativa de conservação marinha focada na limpeza e preservação da maior praia habitada por tartarugas marinhas. O projeto envolve voluntários na remoção de resíduos e na conscientização ambiental, protegendo a biodiversidade local e assegurando um futuro sustentável para essas espécies. </p>
-                <a href="Saiba Mais" class="saiba-mais btn btn-outline-primary mx-auto">Saiba Mais</a>
+                <a href="form.html" class="saiba-mais btn btn-outline-primary mx-auto">Saiba Mais</a>
             </div>
         </div>
         </div>
         <div class="card1 p-5">  
-            <div class="card border-primary border-2" style="width: 18rem;">
+            <div class="card border-primary border-2">
                 <img src="imagens/Educação.jpg" class="card-img-top" alt="">
                 <div class="card-body">
                     <h5 class="card-title" style="color: rgb(227, 2, 2);">ODS 4: Educação de Qualidade</h5>
                     <p class="card-text"> Este projeto promove acesso à educação inclusiva e de qualidade em comunidades rurais. A iniciativa oferece cursos e oficinas de capacitação, visando o desenvolvimento de habilidades básicas e técnicas para jovens e adultos. </p>
-                    <a href="Saiba Mais" class="saiba-mais btn btn-outline-primary mx-auto">Saiba Mais</a>
+                    <a href="form.html" class="saiba-mais btn btn-outline-primary mx-auto">Saiba Mais</a>
                 </div>
             </div>
          </div>
          <div class="card1 p-5">  
-            <div class="card border-primary border-2" style="width: 18rem;">
+            <div class="card border-primary border-2">
                 <img src="imagens/Água.jpg" class="card-img-top" alt="">
                 <div class="card-body">
                     <h5 class="card-title" style="color: rgb(24, 49, 241);">ODS 6: Água Potável e Saneamento</h5>
                     <p class="card-text"> Focado em melhorar o acesso a água limpa, este projeto atua em áreas com baixa disponibilidade de recursos hídricos, instalando poços, sistemas de tratamento de água e capacitando moradores para o uso sustentável desse recurso. </p>
-                    <a href="Saiba Mais" class="saiba-mais btn btn-outline-primary mx-auto">Saiba Mais</a>
+                    <a href="form.html" class="saiba-mais btn btn-outline-primary mx-auto">Saiba Mais</a>
                 </div>
             </div>
          </div>
         </div>
         <div class="cards1">
             <div class="card1 p-5">  
-             <div class="card border-primary border-2" style="width: 18rem;">
+             <div class="card border-primary border-2">
                 <img src="imagens/Trabalho.jpg" style="height: 250px;" class="card-img-top" alt="">
                 <div class="card-body">
                     <h5 class="card-title" style="color: rgb(2, 102, 17); ">ODS 8: Trabalho Decente e Crescimento Econômico</h5>
                     <p class="card-text"> Este projeto incentiva o empreendedorismo local, oferecendo mentorias e suporte a pequenos negócios. Com foco em sustentabilidade, visa criar oportunidades de trabalho decente e fomentar o desenvolvimento econômico. </p>
-                    <a href="Saiba Mais" class="saiba-mais btn btn-outline-primary mx-auto">Saiba Mais</a>
+                    <a href="form.html" class="saiba-mais btn btn-outline-primary mx-auto">Saiba Mais</a>
                 </div>
             </div>
             </div>
             <div class="card1 p-5">  
-                <div class="card border-primary border-2" style="width: 18rem;">
+                <div class="card border-primary border-2">
                     <img src="imagens/Cidade.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title" style="color: rgb(147, 160, 53);">ODS 11: Cidades e Comunidades Sustentáveis</h5>
                         <p class="card-text"> Uma iniciativa para revitalizar espaços urbanos degradados, promovendo áreas verdes e espaços de convivência. O projeto envolve a comunidade local em oficinas de jardinagem e urbanismo sustentável. </p>
-                        <a href="Saiba Mais" class="saiba-mais btn btn-outline-primary mx-auto">Saiba Mais</a>
+                        <a href="form.html" class="saiba-mais btn btn-outline-primary mx-auto">Saiba Mais</a>
                     </div>
                 </div>
              </div>
              <div class="card1 p-5">  
-                <div class="card border-primary border-2" style="width: 18rem;">
+                <div class="card border-primary border-2">
                     <img src="imagens/Clima.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title" style="color: rgb(97, 255, 34);">ODS 13: Ação Contra a Mudança Global do Clima</h5>
                         <p class="card-text"> Este projeto realiza atividades de conscientização e ações práticas contra as mudanças climáticas, como plantio de árvores, recuperação de áreas degradadas e campanhas de sensibilização sobre a importância da preservação ambiental. </p>
-                        <a href="Saiba Mais" class="saiba-mais btn btn-outline-primary mx-auto">Saiba Mais</a>
+                        <a href="form.html" class="saiba-mais btn btn-outline-primary mx-auto">Saiba Mais</a>
                     </div>
                 </div>
              </div>
             </div>
-      <div class="topo fs-4 mt-5 p-5" style="width: 100%">  
+      <div class="topo fs-4 mt-5 p-5">  
         <h1 class="fw-bolder fst-italic text-center">Quem Somos?</h1>
             <div class="img-texto d-flex flex-column flex-md-row align-items-center">
                 <img class="img-fluid mb-3 mb-md-0" src="imagens/Image1.png" alt="Imagem" style="max-width: 325px; width: 100%; height: auto;">
@@ -113,39 +114,47 @@
 
     <footer class="footer">
         
-        <div class="base d-flex align-items-center p-5">
+        <div class="base">
             <div class="contato d-flex align-items-start">
                     <div class="logo">
-                        <img src="imagens/Ellipse 3.png" alt="Logo do ColaboraMundo" style="width: 60px; height: 60px; margin-right: 1px; margin-bottom: 5px; border: none; ">
-                        <h1 class="titulo fs-1 text-start">
+                        <img class="logo-footer" src="imagens/Ellipse 3.png" alt="Logo do ColaboraMundo" ">
+                        <h1 class="titulo-footer">
                         ColaboraMundo</h1>
                     </div>
-                <h4>Suporte</h4>
-                <p>E-mail: <a style="text-decoration: none; color: white;" href="/email"> colaboramundo@gmail.com</a>
-                </p><p>Telefone: <a style="text-decoration: none; color: white;" href="/telefone">+55 (11) 2920-6119</a></p>
+                    <h4>Suporte</h4>
+                    <p>E-mail: 
+                    <a id="email-link" style="text-decoration: none; color: white;" href="#">colaboramundoLTDA@gmail.com</a>
+                    </p>
+                    <p>Telefone: 
+                    <a id="phone-link" style="text-decoration: none; color: white;" href="#">+55 (11) 2920-6119</a>
+                    </p>
             </div>
             
-            <div class="redes-sociais d-flex flex-column">
-                <h4 class="text-redes-sociais" style="padding-right: 18px;">Redes Sociais</h4>
-                <div class="facebook"> 
-                    <p style="margin-right: 20px;"><a style="text-decoration: none;" href="/Facebook">
-                    <img class="img-fluid" src="imagens/instagram.png" style="width: 20px; height: 20px; margin-right: 1px; margin-bottom: 5px; margin-left: 2px;">
+            <div class="redes-sociais">
+                <h4 class="text-redes-sociais">Redes Sociais</h4>
+            
+                <div class="rede-social">
+                    <a href="https://www.instagram.com/colaboramundo_ofc?igsh=MWhoMTlyeTZ5eHE4NA==" class="link-rede-social">
+                        <img src="imagens/instagram.png" alt="Instagram" class="icone-rede-social">
+                        colaboramundo_ofc
                     </a>
-                        ColaboraMundo</p>
                 </div>
-                <div class="facebook"> 
-                    <p style="margin-right: 20px;"><a style="text-decoration: none;" href="/Facebook">
-                    <img class="img-fluid" src="imagens/facebook.png" style="width: 20px; height: 20px; margin-right: 1px; margin-bottom: 5px; margin-left: 2px;">
+            
+                <div class="rede-social">
+                    <a href="https://www.facebook.com/share/15g7GhH8hn/" class="link-rede-social">
+                        <img src="imagens/facebook.png" alt="Facebook" class="icone-rede-social">
+                        Colab Mund
                     </a>
-                    ColaboraMundo</p>
                 </div>
-                <div class="facebook"> 
-                    <p style="margin-right: 20px;"><a style="text-decoration: none;" href="/Facebook">
-                    <img class="img-fluid" src="imagens/twitter.png" style="width: 20px; height: 20px; margin-right: 1px; margin-bottom: 5px; margin-left: 2px;">
+            
+                <div class="rede-social">
+                    <a href="https://x.com/ColaboraMundOFC?t=8YmVf_AlBuTnuNva9kjNiw&s=08" class="link-rede-social">
+                        <img src="imagens/twitter.png" alt="Twitter" class="icone-rede-social">
+                        ColaboraMundOFC
                     </a>
-                    ColaboraMundo</p>
                 </div>
             </div>
+            
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

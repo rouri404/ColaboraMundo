@@ -1,7 +1,8 @@
 .header {
   background: linear-gradient(to right, #21369f 25%, #0C1439 100%); 
   color: white;
-  padding: 20px; 
+  justify-content: space-between;
+  padding: 50px; 
   display: flex;
   align-items: center;
   width: 100%;
@@ -9,6 +10,7 @@
 
 .titulo {
   font-family: 'Kadwa',serif;
+  font-size: 35px;
 }
 
 .botoes {
@@ -38,7 +40,9 @@
 }
 
 .botao-buscar {
-  width: 120px;
+  width: 10%;
+  min-width: 120px;
+  max-width: 200px;
   font-family: 'Inter',serif;
 }
 
@@ -76,19 +80,35 @@
 
 .cards1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
+  flex-wrap: wrap;
 } 
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 18rem;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-img-top {
+  height: 235px;
+}
 
 .base{
   background: linear-gradient(to right, #21369f 25%, #0C1439 100%);
   color: white;
-
   display: flex;
   justify-content: space-between;
   gap: 15px;
-  padding-left: 60px ;
-  padding-right: 60px;
+  padding: 45px;
   width: 100%;
 }
 
@@ -111,16 +131,32 @@
 }
 
 .redes-sociais {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: flex-end;
-  gap: 10px;
-  font-family: 'Inter',serif;
+  margin: 20px 0;
 }
 
-.redes-sociais .text-redes-sociais {
-  margin-left: 100px; /* ou use padding-left: 20px; */
+.text-redes-sociais {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.rede-social {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.link-rede-social {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.icone-rede-social {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
 }
 
 
@@ -128,4 +164,104 @@
   display: flex;
   gap:5px;
 }
-/*# sourceMappingURL=styles.css.map */
+
+
+@media (min-width: 1920px) {
+  .header {
+    padding: 30px; 
+  }
+
+  .titulo {
+    font-size: 2.5rem; 
+  }
+
+  .input-search {
+    width: 40vw; 
+  }
+
+  .input-search input[type="search"] {
+    font-size: 1.2rem; 
+  }
+
+  .botao-buscar {
+    font-size: 1.1rem;
+    width: 140px; 
+  }
+
+  .cards1 .card {
+    width: 22rem; 
+  }
+
+  .topo {
+    font-size: 2rem; 
+    min-height: 550px;
+  }
+
+  .card-img-top {
+    height: 300px; 
+  }
+
+  .footer {
+    font-size: 1.2rem; 
+  }
+}
+
+@media (max-width: 415px) {
+  .header {
+    padding: 50px;
+  }
+
+  .titulo {
+    font-size: 25px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .botoes {
+    margin-right: 0px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .input-search {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    }
+
+  .form-control {
+    font-size: 15px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+
+  .logo-footer {
+    width: 40px;
+    height: 40px;
+  }
+
+  .titulo-footer {
+    font-size: 20px;
+  }
+
+  .text-redes-sociais {
+    font-size: 20px;
+    margin-left: 0px;
+  }
+
+  .base {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+
+}
